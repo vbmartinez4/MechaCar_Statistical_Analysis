@@ -24,3 +24,5 @@ total_summary <- suspension_coil %>% summarize(Mean=mean(PSI), Median=median(PSI
 # Create a lot_summary dataframe to group each manufacturing lot by the mean, median, 
 # variance, and standard deviation of the PSI column.
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI),.groups = 'keep')
+
+# Deliverable 3: T-Tests on the Suspension Coils
