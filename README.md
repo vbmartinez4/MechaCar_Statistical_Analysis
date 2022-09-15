@@ -64,7 +64,7 @@ For the t-test performed on Lot3, we can conclude that the suspension coils are 
 **Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 In your description, address the following questions:**
 
-**What metric or metrics are you going to test?**
+- **What metric or metrics are you going to test?**
 If a statistical study were performed in order to quantify how the MechaCar performs against the competition, the following four metrics would be the primary focus of the analysis:
 
 - Vehicle price
@@ -74,4 +74,10 @@ If a statistical study were performed in order to quantify how the MechaCar perf
 
 These four are chosen as they are seen as primary factors that are of large interest to any consumer when taking the step of purchasing a vehicle. Price is by far a huge metric as consumers will look to have a limit or budget for vehicle purchase, all which are influenced by maintenance cost, vehicle safety rating, and highway fuel efficiency. 
 
+- ** What is the null hypothesis or alternative hypothesis?**
 
+**Null Hypothesis (Ho):** The average price of Mechacar demonstrates no statistical difference with the average price of the competition to affects its performance.  
+
+**Alternative Hypothesis (Ha):** The average price of Mechacar demonstrates slightly above or below statistical difference with the average price of the competition to affects its performance.  
+
+- **What data is needed to run the statistical test?**
