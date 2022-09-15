@@ -61,6 +61,17 @@ Reviewing the t-test performed for Lot2, we can arrive at the same conclusion as
 For the t-test performed on Lot3, we can conclude that the suspension coils are statistically different from the population mean. With the p-value given to be 0.04168, we can state that there is enough evidence to reject the null hypothesis. Just as we have already reviewed its variance, we need to further review Lot3 closer to see what underlying factors is affecting this manufacturing lot and if it is sufficient enough to allow it to be kept in our statistical testing of the MechaCar prototype analysis. 
 
 ## Study Design: MechaCar vs. Competition
+**Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:**
 
+**What metric or metrics are you going to test?**
+If a statistical study were performed in order to quantify how the MechaCar performs against the competition, the following four metrics would be the primary focus of the analysis:
+
+- Vehicle price
+- Maintenance cost
+- Vehicle safety rating
+- Highway Fuel Efficiency
+
+These four are chosen as they are seen as primary factors that are of large interest to any consumer when taking the step of purchasing a vehicle. Price is by far a huge metric as consumers will look to have a limit or budget for vehicle purchase, all which are influenced by maintenance cost, vehicle safety rating, and highway fuel efficiency. 
 
 
