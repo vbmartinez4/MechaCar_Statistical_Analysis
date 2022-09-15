@@ -77,8 +77,16 @@ These four are chosen as they are seen as primary factors that are of large inte
 
 **- What is the null hypothesis or alternative hypothesis?**
 
-**Null Hypothesis (Ho):** The average price of Mechacar demonstrates no statistical difference with the average price of the competition to affects its performance.  
+**Null Hypothesis (Ho):** The average price of MechaCar demonstrates no statistical difference with the average price of the competition to affects its performance.  
 
-**Alternative Hypothesis (Ha):** The average price of Mechacar demonstrates slightly above or below statistical difference with the average price of the competition to affects its performance.  
+**Alternative Hypothesis (Ha):** The average price of MechaCar demonstrates slightly above or below statistical difference with the average price of the competition to affects its performance.  
+
+**-What statistical test would you use to test the hypothesis? And why?
+
+It is suggested that a multiple linear regression be used to test the hypothesis as we have multiple independent variables to account for its comparison against the dependent variable being examined. Based on our own walk-through of the multiple linear regression analysis, we are able to obtain crucial data points such has p-values of all the tested variables. All of these measures in turn assist with determining the significance levels of variables that can also accept or reject a hypothesis. Likewise, the r-squared value will provide an insight on the relationship between the dependent and independent variables. 
 
 **- What data is needed to run the statistical test?**
+For the actual data collection, roughly a few years’ worth of information should be collected in order to get range or length timeline to determine how far the effect goes for every metric being measured for both MechaCar and its competitors. This includes: car prices at the time they hit the market; vehicle safety ratings collected through testing; and highway fuel efficiency also collected during the makeup and manufacturing of the car. In terms of the competition, several car brands should be considered to have them all aggregate and compare to MechaCar. 
+
+Depending how MechaCar is classified, whether it is a sports car, crossover, suburban, it should also be considered to utilize bar brands and model type to the prototype in question for our analysis. After the data is collected, then we are able to run the regression analysis to determine the summary data which will all bundle as part of the statistical design of the study. 
+
