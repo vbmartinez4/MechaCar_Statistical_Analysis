@@ -31,7 +31,7 @@ The slope of the linear model cannot be considered to have a value of zero. The 
 While the model has shown that there is still unconsidered factors that are affecting the results, given that the r-squared produced, it does prove the argument that the linear model predicts MPG of MechaCar prototypes effectively. Essentially, what determines its effectiveness is the r-squared value. The r-squared value of 0.7149, therefore, model is approximately 71% accurate and sufficiently and predicts the dependent variable using the multiple linear regression model. 
 
 ## Summary Statistics on Suspension Coils
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+**- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
 ![total summary table](images/total_summary_suspension_coils.png)
 
@@ -42,6 +42,23 @@ The table above demonstrates the total summary of all of the manufacturing lotsâ
 As we use the summarize function again but break down each lots mean, median, variance, and standard deviation, they each paint a different picture individually. Both Lot1 and Lot2 meet the design specification as they both have a variance of the suspension coils to be far from exceeding 100 pounds PSI. However, Lot3 tells a difference story, in which its variance of the suspension coils does exceed the 100 pounds PSI limit. Lot3 contains a variance of 170.2861224, causing Lot3 no to meet the design specifications of the car prototype. 
 
 ## T-Tests on Suspension Coils
+**Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.**
+
+![all lots t-test](images/t_test_all_manufacturing_lots.png)
+
+In the above snapshot of the t-test for all of the suspension coils across all manufacturing lots, we are able to see that as a whole, the three lots aggregated display that they are not statistically different from the population mean. The p-value, being 0.06028, determines this conclusion for us as it is not low enough for us to sufficiently reject the null hypothesis. 
+
+![Lot1 t-test](images/Lot1_t_test_suspension_coils.png)
+
+As we view the t-test performed for Lot1, we can see that the suspension coils are not statistically different from the population mean. Additionally, as the p-value is 1, we can conclude to accept the null hypothesis.
+
+![Lot2 t-test](images/Lot2_t_test_suspension_coils.png)
+
+Reviewing the t-test performed for Lot2, we can arrive at the same conclusion as Lot1, that the suspension coils are not statistically different from the population mean. As the p-value is 0.6072, we can sufficiently say that there is not enough for us to reject the null hypothesis. 
+
+![Lot3 t-test](images/Lot3_t_test_suspension_coils.png)
+
+For the t-test performed on Lot3, we can conclude that the suspension coils are statistically different from the population mean. With the p-value given to be 0.04168, we can state that there is enough evidence to reject the null hypothesis. Just as we have already reviewed its variance, we need to further review Lot3 closer to see what underlying factors is affecting this manufacturing lot and if it is sufficient enough to allow it to be kept in our statistical testing of the MechaCar prototype analysis. 
 
 ## Study Design: MechaCar vs. Competition
 
