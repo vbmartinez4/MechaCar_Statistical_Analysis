@@ -81,7 +81,7 @@ These four are chosen as they are seen as primary factors that are of large inte
 
 **Alternative Hypothesis (Ha):** The average price of MechaCar demonstrates slightly above or below statistical difference with the average price of the competition to affects its performance.  
 
-**-What statistical test would you use to test the hypothesis? And why?
+**-What statistical test would you use to test the hypothesis? And why?**
 
 It is suggested that a multiple linear regression be used to test the hypothesis as we have multiple independent variables to account for its comparison against the dependent variable being examined. Based on our own walk-through of the multiple linear regression analysis, we are able to obtain crucial data points such has p-values of all the tested variables. All of these measures in turn assist with determining the significance levels of variables that can also accept or reject a hypothesis. Likewise, the r-squared value will provide an insight on the relationship between the dependent and independent variables. 
 
